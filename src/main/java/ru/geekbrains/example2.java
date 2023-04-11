@@ -46,7 +46,8 @@ private static int[] generateArray() {
     for (int i = 0; i < arr.length; i++) {
         // Генерируем случайное число и записываем его в массив
         arr[i] = random.nextInt(21) - 10;
-        System.out.printf("%d ", arr[i]);
+        // Вывод результата (если требуется):
+        // System.out.printf("%d ", arr[i]);
     }
     System.out.println();
     return arr;
